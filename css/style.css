@@ -1,10 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto';
+    color: rgb(160, 155, 155)
+}
 .container {
     width: 800px;
     height:600px;
     padding-top: 50px;
     background-image: linear-gradient(90deg, rgb(86, 100, 185) , rgb(44, 143, 163));
 
-   
+
 }
 .block {
     display: block;
@@ -16,19 +23,38 @@ form {
     background-color: rgb(250, 250, 250);
     height: 550px;
 
-   
+
 }
 input{
     /* margin: auto; */
     width: 330px;
-    margin-left: 50px;
+    margin-left: 70px;
+    border-width: 0px;
+    background-color: rgb(250, 250, 250);
 }
 label {
-    padding-left: 50px;
+    padding-left: 70px;
     font-size: 10px;
+    padding-top: 20px;
 }
 .plavo {
     background-color: rgb(33, 150, 243);
     height: 110px;
     color: white;
 }
+hr {
+    width: 83%;
+    margin: 8px 0 30px 70px;
+  }
+  p {
+      padding-left: 70px;
+      padding-top: 20px;
+      font-size: 18px
+  }
+  .radio {
+    width: 13px;
+    /* display: block; */
+  }
+  h4 {
+    padding-left: 70px;
+  }
